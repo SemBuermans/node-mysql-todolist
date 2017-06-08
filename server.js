@@ -12,7 +12,7 @@ var config = require('./config/config');
 var expressJWT = require('express-jwt');
 
 var app = express();
-
+//tteest
 // bodyParser zorgt dat we de body uit een request kunnen gebruiken,
 // hierin zit de inhoud van een POST request.
 app.use(bodyParser.urlencoded({ 'extended': 'true' })); // parse application/x-www-form-urlencoded
